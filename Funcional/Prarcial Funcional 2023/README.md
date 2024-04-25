@@ -1,5 +1,4 @@
-# Parcial Funcional - Los Simpson 
-### [Consigna](https://docs.google.com/document/d/1fIdfbyhyio8K2Wx9GaEZZ5cjU8P1rY8ZzdO2p4SP4OE/edit)
+# [Parcial Funcional - Los Simpson](https://docs.google.com/document/d/1fIdfbyhyio8K2Wx9GaEZZ5cjU8P1rY8ZzdO2p4SP4OE/edit)
 
 ## 1: Actividades de los personajes
 Existen diferentes personajes de Los Simpson. De cada uno se sabe su nombre, el dinero que tiene y su felicidad (que puede ser mayor o igual a cero pero nunca negativa). 

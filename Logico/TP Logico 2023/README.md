@@ -1,5 +1,7 @@
 # [TP - Eclipse](https://docs.google.com/document/d/1J32BekPMZvHKM-wrjK0syun31FxDApsf32I5QMv-PY8/edit)
 
+![Imagen de un Eclipse](eclipse.png)
+
 > _El dia del gran eclipse en Argentina, buscamos un buen lugar para verlo._
 
 Contamos con información de los lugares donde se ve el fenomeno natural:

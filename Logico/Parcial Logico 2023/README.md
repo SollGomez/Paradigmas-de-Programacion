@@ -2,6 +2,10 @@
 
 > Un análisis predictivo de la saga más influyente del cine.
 
+!["El miedo lleva a la ira. La ira lleva al odio. El odio lleva al sufrimiento. Y el sufrimiento al Lado Oscuro. Cuidado con el miedo, joven padawan."  Maestro Yoda](fraseYoda.png)
+!["¡Es lógico! pasaAlLadoOscuro(Alguien) :- tieneMiedo(Alguien)." Joven Padawan de prolog ](frase.png)
+
+
 El objetivo principal es deducir las principales características del próximo episodio. 
 
 En particular, se busca definir un predicado:

@@ -1,4 +1,7 @@
 # [TP - PdeP Version Control (git)](https://docs.google.com/document/d/1kwGZ4euM5BwcnPnx1TO9tD6mFcHKPl59uQYIyyBVO_E/edit)
+
+![](https://github.com/SollGomez/Paradigmas-de-Programacion/blob/main/Funcional/TP%20Funcional%202023/pdepvc.png)
+
 > Vamos a crear nuestro propio sistema de control de versiones, que permite administrar los sucesivos cambios que los usuarios hacen sobre sus archivos.
 
 ## Primera Parte
@@ -30,6 +33,9 @@ _Se pide:_
 
 ## Segunda Parte
 ### Branches
+
+![](https://github.com/SollGomez/Paradigmas-de-Programacion/blob/main/Funcional/TP%20Funcional%202023/branches.png)
+
 Una rama ("branch") es una forma de organizar los commits que representa la evolución de una carpeta a lo largo del tiempo. En particular, lo que da origen a su nombre, es permitir que haya bifurcaciones en la historia de commits, de manera que se forman diferentes branches con los primeros commits en común. (Es una suerte de multiuniverso o "elige tu propia aventura" donde la situación final de la carpeta depende de qué branch se considere). Para simplificar, a diferencia de lo que sucede en la realidad con git, en esta versión los branches nunca se juntan ("merge"), por lo que si bien dos commits diferentes pueden ser vistos como siguientes de un mismo commit, siempre cada commit tiene un único commit anterior. También, se debe poder diferenciar al commit inicial de los restantes, para identificar lo que sería la raíz del árbol.  
 
 _Se pide:_

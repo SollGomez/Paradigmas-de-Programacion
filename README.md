@@ -10,6 +10,6 @@ Profesor Lucas Spigariol
 - Parcial (10) - [link](https://github.com/SollGomez/Paradigmas-de-Programacion/tree/main/Logico/Parcial%20Logico%202023)
 
 ## Paradigma Orientado a Objetos - Wollok
-- Trabajo Práctico - 
-- Parcial - 
-- TP Game - 
+- Trabajo Práctico - [link](https://github.com/SollGomez/Paradigmas-de-Programacion/tree/main/POO/TP%20Objetos%202023)
+- Parcial (8) - [link](https://github.com/SollGomez/Paradigmas-de-Programacion/tree/main/POO/Parcial%20Objetos%202023)
+- TP Game - [link](https://github.com/SollGomez/Paradigmas-de-Programacion/tree/main/POO/TP-Game%202023)

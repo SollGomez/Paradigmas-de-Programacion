@@ -1,0 +1,17 @@
+import wollok.game.*
+import nivel1.*
+import menu.*
+
+program ejemplo {
+
+  game.width(17)
+  game.height(10)
+  game.cellSize(70)
+  game.title("Ratatouille")
+  
+  game.boardGround("inicio.jpg")
+  
+  game.schedule(4000, { menu.ejecutar() })
+  
+  game.start()
+}

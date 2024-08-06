@@ -1,0 +1,42 @@
+import objects.*
+
+test "Red agrega pokemones a su equipo " {
+	red.agregarPokemon(roselia)
+	assert.that(red.equipo().contains(roselia))
+}
+
+test "Conocer el poderío total de Red" {
+	assert.equals(red.poderioTotal(),7500)
+}
+
+test "Red decide abandonar a su pokemon menos poderoso, quien queda en la ciudad." {
+	assert.equals(ratatta, red.pokeMenosPoderoso())
+	red.abandonarMenosPoderoso()
+	assert.notThat(red.equipo().contains(ratatta))
+}
+
+test "Determinar si Red será campeón de la liga de la ciudad" { 
+	assert.equals(red,liga.competir())
+}
+
+test "Machop tiene un poder inicial de 2000 y cada vez que entrena su poder aumenta un 10%." {
+	machop.entrenar()
+	assert.equals(2200,machop.poder())
+}
+
+test "El poder de pikachu es 20 veces la cantidad de letras de los nombres de los misterios resueltos." {
+	assert.equals(21*20,pikachu.poder())
+}
+
+
+/* Cada vez que entrena resuelve un nuevo misterio, cuyo nombre se arma a partir de
+ * concatenar "parte2" al primero de los misterios ya resueltos que no tenga parte 2.*/
+test "Pikachu entrena" {
+	pikachu.entrenar()
+	assert.that(pikachu.resueltos().last().contains("parte2"))
+}
+
+test "Blue al entrenar, se hace amigo de un pokemon aleatorio que haya en la ciudad." {
+	blue.entrenar()
+	assert.equals(4, blue.amigos().size())
+}
